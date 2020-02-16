@@ -1,6 +1,6 @@
 <?php
 
-namespace iotek\UsesUuid;
+namespace iotek\Uuid;
 
 use Ramsey\Uuid\Uuid;
 
