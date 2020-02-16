@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "iotek\\UsesUuid\\": "src/app/"
+            "iotek\\Uuid\\": "src/app/"
         }
     },
     "require": {
