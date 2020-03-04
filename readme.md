@@ -13,3 +13,12 @@ use iotek\UsesUuid\Uuids;
 class YourModel extends Model {
   use Uuids;
 ```
+
+You will also need to edit your migration. The 'id' column shall be set to uuid or string. On a fresh laravel you only 
+
+```php
+$table->uuid('id')->primary();
+
+// OR
+$table->string('id')->primary();
+```
