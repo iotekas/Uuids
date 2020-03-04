@@ -6,7 +6,7 @@ The package creates UUID-4 keys from the ramsey/uuid package, and automatically 
 This is a simple package with almost no configuration. There are more advanced packages out there ex.: https://github.com/spatie/laravel-binary-uuid
 
 
-```
+```php
 <?php
 use iotek\UsesUuid\Uuids;
 
